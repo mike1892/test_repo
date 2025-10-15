@@ -1,5 +1,19 @@
-def main():
-    print("Hello from test-repo!")
+"""
+Test Repo.
+
+3 Jan 2025
+"""
+
+
+def clear_screen() -> None:
+    """Clear screen method."""
+    print("\033c", end="")
+
+
+def main() -> None:
+    clear_screen()
+
+    print("Hi")
 
 
 if __name__ == "__main__":
